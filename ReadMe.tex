@@ -1,0 +1,50 @@
+# AI and Data Engineering Prototype Source
+
+This folder contains a collection of Databricks-based AI, data engineering, and retrieval experiments designed to showcase agentic workflows, RAG pipelines, vector search indexing, and secure data access patterns.
+
+## Overview
+
+The source code in this directory is organized as a set of prototype modules and demos for:
+- Building AI agents with tool calling and orchestration
+- Connecting to Databricks SQL and Unity Catalog securely
+- Building retrieval-augmented generation (RAG) flows using embeddings
+- Creating and testing AI vector indexes for semantic search
+- Deploying lightweight Databricks apps for internal analytics use cases
+
+## Folder Structure
+
+- [Mosaic_AI_Agent](.github/src/Mosaic_AI_Agent)  
+  Contains agent implementations that interact with Databricks tools, model endpoints, and Genie-based workflows. Includes examples for single-tool and multi-tool agent logic, MLflow evaluation, and deployment patterns.
+
+- [Retrieval_Augmented_Generation](.github/src/Retrieval_Augmented_Generation)  
+  Focuses on RAG pipelines using document embeddings, chunking, semantic similarity search, and prompt construction for LLM-based answers. Implements embedding generation and search with SentenceTransformers and FAISS-like vector retrieval patterns.
+
+- [Vector_DataBase_AI_Index](.github/src/Vector_DataBase_AI_Index)  
+  Contains scripts for building, evaluating, filtering, and tuning vector indexes for AI search use cases. Includes experiments for end-to-end index creation, query tuning, filtering, testing, and freshness checks.
+
+- [geniemodel-app](.github/src/geniemodel-app)  
+  Contains a Databricks app implementation for secure data access and model-driven workflows, including Unity Catalog access control demos and app deployment files.
+
+- [1_AgentAICoding](.github/src/1_AgentAICoding)  
+  Includes exploratory AI coding experiments and small Python utilities related to source table handling and notebook-based workflows.
+
+- [output](src/output)  
+  Stores generated output documents and deliverables for the AI and Databricks experiments.
+
+
+## Technologies Used
+
+- Python
+- Databricks SQL
+- Unity Catalog
+- Streamlit
+- Pandas
+- SentenceTransformers
+- FAISS
+- MLflow
+- Databricks Vector Search
+- Databricks Apps
+- Genie API / model endpoints
+
+## Purpose
+This source directory acts as a working prototype area for modern AI data solutions in Databricks, combining enterprise data access, semantic search, orchestration, and LLM-based reasoning. It is intended for experimentation, learning, and demonstrating practical patterns for operational AI use cases.

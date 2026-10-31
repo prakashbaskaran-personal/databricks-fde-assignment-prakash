@@ -1,0 +1,20 @@
+command:
+  - streamlit
+  - run
+  - app.py
+  - --server.port
+  - "8000"
+  - --server.address
+  - 0.0.0.0
+  - --server.headless
+  - "true"
+  - --browser.gatherUsageStats
+  - "false"
+
+env:
+  - name: "DATABRICKS_HOST"
+    value: "https://dbc-4371a871-4900.cloud.databricks.com"
+  - name: "DATABRICKS_SQL_HTTP_PATH"
+    value: "/sql/1.0/warehouses/5eac5f91546cf475"
+  - name: "DATABRICKS_TOKEN"
+    value: "dapi0eb3a90d5d9af39fdc3853955e068a59"
